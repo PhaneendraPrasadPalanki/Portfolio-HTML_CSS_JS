@@ -1,0 +1,33 @@
+/* Custom Styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
+  .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  /* Updated styles for rounded image */
+.img-fluid.rounded-circle {
+    width: 300px; /* Set a width to maintain aspect ratio */
+    height: 350px; /* Adjust the height to make the image shorter */
+    object-fit: cover; /* Ensure the image covers the circular area */
+  }
+  
